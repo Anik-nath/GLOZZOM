@@ -1,0 +1,263 @@
+.navbar{
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.787);
+    .nav-item{
+        padding-left: 1em;
+    }
+}
+
+.carousel-item{
+    height: 700px;
+    position: relative;
+    h2{
+        color: #fff;
+    }
+}
+.carousel .img-1{
+    background: url(../img/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel .img-2{
+    background: url(../img/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel .img-3{
+    background: url(../img/image3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#TDM{
+    .fa{
+        font-size: 3.5rem;
+    }
+}
+#ready{
+    background: url(../img/service-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 250px;
+    position: relative;
+
+    h3{
+        color: #fff;
+    }
+    .overlay{
+        background: rgba(0, 0, 0, 0.363);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+#play{
+    background: url(../img/blog-image-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 250px;
+    position: relative;
+    .overlay{
+        background: rgba(0, 0, 0, 0.363);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #lightbox{
+        
+        .fa{
+            font-size: 40px;
+            color: yellow;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        h3{
+            color: #fff;
+        }
+    }
+}
+#subscribe{
+    background-color: #f1f1f1;
+}
+
+#about-header{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, #0088ff80, #ff137d) ,url(../img/image1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    #about-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+#about-card{
+    .fa{
+        color: #7d07b4;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .card{
+       background-color: #ff137d;
+    }
+}
+#testimonial{
+    .slick-prev::before,
+    .slick-next::before{
+        color: #000;
+        background-color: #f1f1f1;
+        padding: 5px;
+    }
+}
+#services{
+    background: linear-gradient(180deg, #0088ff80, #ff137d) ,url(../img/service-image.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+    #services-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+    }
+
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+#accordion{
+    .card{
+       margin-bottom: 10px;
+       a{
+           color: #000;
+       }
+    }
+}
+#blog-header{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    video{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
+    #blog-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+    }
+    .blog-overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.274);
+    }
+}
+#blog-content{
+    a{
+        color: #000;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    #image{
+        position: relative;
+    }
+    #post{
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        span{
+            .fa{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    #side-col{
+        #catagori{
+            li:hover{
+                box-shadow: 0px 8px 16px 2px #ccc;
+                transition: 0.2s;
+              }
+        }
+        .popular-post-list{
+            li{
+                margin: 5px 2px;
+            }
+        }
+    }
+}
+#contact-header{
+    background: url(../img/contact-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    #contact-title{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: #fff;
+    }
+    .contact-overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.274);
+    }
+}
+@media(max-width:768px){
+    .nav-item{
+        padding-left: 0em !important;
+    }
+    #lorem{
+        text-align: center;
+    }
+}
+@media(max-width:568px){
+    #side-col{
+        margin-top: 25px;
+    }
+}
